@@ -123,6 +123,10 @@
   color: goldenrod;
 }
 
+.contenido img:hover{
+  filter: blur(1.5px);
+}
+
 .titulo {
   grid-area: titulo;
   font-weight: 200;
@@ -172,6 +176,11 @@
 
 .aside h2 {
   margin-top: 80px;
+}
+
+.aside li:hover{
+  color: rgb(5, 5, 5);
+  font-size: 25px;
 }
 
 /* contacto */
